@@ -23,3 +23,8 @@ const helloAsync = async () => {
 }
 
 helloAsync();
+
+const a = 'a';
+const a = 'b';
+
+console.log(a)

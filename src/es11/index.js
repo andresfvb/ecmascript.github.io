@@ -5,3 +5,9 @@ button.addEventListener("click", async function(){
     module.hello();
 })
 
+const aBigNumber = 90071992544740991n;
+
+const anotherBigNumber = BigInt(90071992544740991n);
+
+console.log(aBigNumber);
+console.log(anotherBigNumber);
